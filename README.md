@@ -6,7 +6,6 @@ By using uHttp you have some good features such as easy Post methods by using my
 
 > This package comes with some Unity scripts and an extended version for Editor which allows you to test the post method on the first given URL.
 
-[========]
 ### Example of usage ###
 - Create a new instance of HttpRequest 
 `var request = new HttpRequest();`
