@@ -19,5 +19,6 @@ By using uHttp you have some good features such as easy Post methods by using my
 - To check if the request was succesfully or not you'll have some attributes of request Object which you are able to access. This is an practical example:
 > Verify is `request.isDone` by getting the attr -> request.isDone which returns the request state after in a nested if you verify if the request is not an error or an web exception by using `!request.isError && request.statusCode == HttpStatusCode.OK` and finally to show the content body you just need to simply access `request.ContentResponse`.
 - (Optional) If you want to verify wheter the request is Json you just have to access another attribute which returns a bool state. `request.isJson`
+- To make a Get Request is the same way of Post except the formData you'll have have to `request.Get(url)` but this function is not much finished because my main focus was Post but soon i'll be adding Put and also finish Get but the main purpose of this package is to help newbies
 
 > Disclamer: Im not responsible for any act you do after you take this scripts, they are licensed under MIT License
