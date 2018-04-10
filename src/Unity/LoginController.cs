@@ -48,7 +48,7 @@ public class LoginController : MonoBehaviour
     }
 
     /// <summary>
-    /// Requests a syncronized http request to a determinated host and send the data in $_POST
+    /// Requests a synchronized http request to a determinated host and send the data in $_POST
     /// </summary>
     public void SyncRequest()
     {
