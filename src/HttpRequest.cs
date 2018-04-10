@@ -60,7 +60,7 @@ public class HttpRequest
 
 
     /// <summary>
-    /// Request a pure HttpRequest syncronizated which do not return but his data may be accessed on the created instance
+    /// Request a pure HttpRequest synchronized which do not return but his data may be accessed on the created instance
     /// </summary>
     /// <param name="url"></param>
     /// <param name="data"></param>
