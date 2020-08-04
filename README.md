@@ -1,5 +1,5 @@
 # uHttp
-This http library was created to solve a problem while using legacy/old Unity versions which allow the developer to make synchronized requests and extending the original unity WWW with optional asynchronous method 
+This http wrapper was created to solve a problem while using legacy/old Unity versions which allow the developer to make synchronized requests and extending the original unity WWW with optional asynchronous method 
 
 ### Description ###
 By using uHttp you have some good features such as easy Post methods by using my custom HttpForm class which allows you to create an instance of HttpForm object and add fields. This feature is basically a extend of Unity but it's more designed for raw data such as Login data, Update data and not for multiple purposes like File Upload.
